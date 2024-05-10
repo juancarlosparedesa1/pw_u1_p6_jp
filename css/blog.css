@@ -1,0 +1,105 @@
+.menu li {
+    list-style: none;
+    display: inline-block;
+    /*margin: 10x;/*aplica a todos los márgenes a los cuatro lados*/
+    margin: 5px 15px;
+    /*primer numero arriba y abajo, segundo número aplica derecha e izquierda*/
+    /*margin:10px 20px 30px 40px;/*Sentido horario desde arriba,derecha,abajo,izquierda*/
+    /*margin-top: 10px;/*arriba
+margin-bottom: 20px;
+margin-right: 50px;
+margin-left: 40px;*/
+    background-color: #458685;
+    /*se aplica al li*/
+    border: 1px solid black;
+    padding: 5px 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.menu {
+    background: #166866;
+    /* Se aplica a todo el elemento*/
+    padding: 5px 15px;
+    text-align: left;
+}
+
+/*Declaración de tipo elemento*/
+h1 {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+
+}
+
+body {
+    text-align: center;
+    background: #092a29;
+}
+
+.agrupar {
+    border: 1px solid black;
+    background-color: #041514;
+    width: 900px;
+    margin: 20px auto;
+}
+
+.cabecera {
+    background: #d0e1e0;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.seccion {
+    width: 600px;
+    margin: 10px;
+    float: left;
+}
+
+#idarticulo1,
+#idarticulo2 {
+    background: #6b7b7b;
+    border: 1px solid #d0e1e0;
+    padding: 20px;
+}
+
+article footer{
+   text-align: right;
+}
+.referencias {
+  width: 200px;
+  float: right;
+  margin: 30px 30px;
+  padding-left: 20px;
+}
+.pie {
+    clear: both;
+}
+blockquote {
+    border: 1px solid #000;
+    padding: 5px;
+    background: #73a4a3;
+    width: 125px;
+
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    margin: auto auto;
+}
+
+/*
+.menu, li{
+    color: red;
+}
+
+.li {
+    background-color: black;
+}
+*/
