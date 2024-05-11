@@ -4,11 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora Externa Lambda</title>
+    <title>CalculadoraExternaLambda</title>
+
+    <script src="../js/calculadoraLambda.js"></script>
 </head>
 
 <body>
-
     <header></header>
     <nav></nav>
     <section>
@@ -22,18 +23,15 @@
         <button onclick="multiplicar('idnumero1','idnumero2')">MULTIPLICAR</button>
         <button onclick="dividir('idnumero1','idnumero2')">DIVIDIR</button>
 
-        <button onclick="agregarElemento">AGREGAR</button>
-        <button onclick="quitarElemento">QUITAR</button>
-        <button onclick="conceptosJS">CONCEPTOS JS</button>
-        <label id="idResultado"></label>
+        <button onclick="agregarElemento()">AGREGAR</button>
+        <button onclick="quitarElemento()">QUITAR</button>
+        <button onclick="conceptosJS()">CONCEPTOS JS</button>
 
-        <div id="idDivision">
-            <button>AGREGAR</button>
-        </div>
+        <label id="idresultado"></label>
 
-
-
+        <div id="idDivision"></div>
     </section>
+    <aside></aside>
     <footer></footer>
 </body>
 

@@ -4,31 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora</title>
+    <title>Document</title>
 
     <script>
-        function cambiarTexto(idElemento) {
+
+        function cambirTexto(idElemento) {
             document.getElementById(idElemento).style.background = "yellow";
             document.getElementById(idElemento).style.fontSize = "30px";
-
         }
 
         function sumar(numero1, numero2) {
             var total = numero1 + numero2;
-            console.log(total)
-
+            console.log(total);
         }
-
 
         function sumarCompleto() {
             var num1 = parseInt(document.getElementById('idnumero1').value);
             var num2 = parseInt(document.getElementById('idnumero2').value);
+
             var total = num1 + num2;
-            console.log(total)
-
+            console.log(total);
         }
-    </script>
 
+
+    </script>
 </head>
 
 <body>
@@ -39,17 +38,18 @@
         <input id="idnumero1" type="number">
         <label id="idlabelnumero2" for="idnumero2">Numero 2:</label>
         <input id="idnumero2" type="number">
-        <button onclick="document.getElementById('idlabelnumero1').style.color='blue'">Cambiar color</button>
-        <button onclick="document.getElementById('idlabelnumero2').style.fontSize='30px'">Cambiar tamaño</button>
-
-        <button onclick="cambiarTexto('idlabelnumero1')">Cambiar umero 1</button>
-        <button onclick="cambiarTexto('idlabelnumero2')">Cambiar numero 2</button>
+        <!-- JS en linea -->
+        <button onclick="document.getElementById('idlabelnumero1').style.color='blue'">Cambiar Texto</button>
+        <button onclick="document.getElementById('idlabelnumero2').style.fontSize='30px'">Cambiar Fuente </button>
+        <!-- JS interno -->
+        <button onclick="cambirTexto('idlabelnumero1')">Cambiar Numero 1</button>
+        <button onclick="cambirTexto('idlabelnumero2')">Cambiar Numero 2</button>
 
         <button
-            onclick="sumar(document.getElementById('idnumero1').value,document.getElementById('idnumero2').value)">SUMAR</button>
-        <button onclick="sumarCompleto()">SUMAR COMPLETO</button>
-
+            onclick="sumar(document.getElementById('idnumero1').value,document.getElementById('idnumero2').value)">Sumar</button>
+        <button onclick="sumarCompleto()">sumarCompleto</button>
     </section>
+    <aside></aside>
     <footer></footer>
 </body>
 
