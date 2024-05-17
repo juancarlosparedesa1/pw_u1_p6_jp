@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
     <link rel="stylesheet" href="../css/calculadora.css">
+    <script src="../js/calculadoraCompleta.js"></script>
 </head>
 
 <body>
@@ -16,27 +17,24 @@
 
         <div class="container">
             <div class="calculadora">
-                <div class="display">98x9 </div>
-                <button class="col-2">C</button>
-                <button>&larr;</button>
-                <button>%</button>
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
-                <button>X</button>
-                <button>4</button>
-                <button>5</button>
-                <button>6</button>
-                <button>-</button>
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button>+</button>
-                <button class="col-2">0</button>
-                <button>.</button>
-                <button>=</button>
-                <!-- <button>&#9749</button>
-            <button>&#9917</button> -->
+                <div class="display" id="idpantalla">0</div>
+                <button class="col-2" id="idpunto" onclick="borrar()">C</button>
+                <button id="botonRetroceso" onclick="borrarDigito()">&larr;</button>                <button id="iddiv" onclick="ponerDiv()">%</button>
+                <button onclick="ponerSiete()">7</button>
+                <button onclick="ponerOcho()">8</button>
+                <button onclick="ponerNueve()">9</button>
+                <button id="idmulti" onclick="ponerMulti()">X</button>
+                <button onclick="ponerCuatro()">4</button>
+                <button onclick="ponerCinco()">5</button>
+                <button onclick="ponerSeis()">6</button>
+                <button id="idresta" onclick="ponerResta()">-</button>
+                <button onclick="ponerUno()">1</button>
+                <button onclick="ponerDos()">2</button>
+                <button onclick="ponerTres()">3</button>
+                <button id="idsuma" onclick="ponerSuma()">+</button>
+                <button class="col-2" onclick="ponerCero()">0</button>
+                <button id="botonPuntoDecimal" onclick="ponerPuntoDecimal()">.</button>
+                <button id="idigual" onclick="resolver()">=</button>
             </div>
         </div>
     </section>
