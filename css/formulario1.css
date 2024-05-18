@@ -1,0 +1,25 @@
+
+.formulario form {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+p:before {
+    display: grid;
+    content: attr(type);
+    display: block;
+    margin: 3px 2px;
+    font-size: 15px;
+    color: #5a5a5a;
+}
+.form {
+    display: grid;
+    grid-template-columns: repeat(2,50px);
+    grid-template-rows: 300px repeat(2,50px);
+    padding: 35px;
+    border-radius: 35px;
+    box-shadow: 15px 10px 5px 5px #00000033;
+    margin: 50px;
+}
+
+

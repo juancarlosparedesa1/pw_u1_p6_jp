@@ -36,13 +36,27 @@ h2{
 
 .form {
     width: 300px;
-    height: 350px;
+    height: 375px;
     background-color: #e6e6e6;
     border-radius: 10px;
-    padding: 25px 25px;
+    padding: 25px 35px;
     box-shadow: 0px 0px 40px 5px #000;
 }
 
-button{
+.boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
     
+}
+
+button{
+    padding: 10px 20px;
+    background-color: #78788c;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+
 }
