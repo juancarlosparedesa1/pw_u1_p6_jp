@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.juego {
+    height: auto;
+    border: 1px solid black;
+    padding: 5px;    
+}
+.textoinicial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px dashed black;
+    border-radius: 10px;
+    margin-bottom: 2px;
+}
+.botonera {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    background: whitesmoke;
+    margin-bottom: 10px;
+    
+}
+button{
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 5px;
+    width: 200px;
+}
+
+#idmensajecorrecto {
+    background-color: blue;
+    border: 1px solid black;
+    font-family: 'Times New Roman', Times, serif;
+/*     margin-bottom: 50px; */
+}
+#idmensajeincorrecto {
+    background-color: white;
+}
+
+.botonreiniciar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}

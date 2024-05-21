@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/juegos.css">
+    <script src="../js/juego.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="juego">
+            <header></header>
+            <nav></nav>
+            <section>
+                <div class="textoinicial">
+                    <h3>
+                        <label for="">Puntaje:</label>
+                        <label for="" id="idpuntaje">0</label>
+                    </h3>
+                    <h3>
+                        <label for="">Intentos:</label>
+                        <label for="" id="idintentos">0</label>
+                    </h3>
+                    <h3>Selecciona el nombre de Pokémon correcto</h3>
+                </div>
+                <div id="idimageninicial">
+                    <img src="../images/pokemonbn.png" alt="No se puede cargar la imagen">
+                </div>
+                <div class="botonera">
+                    <button onclick="opcionIncorrecta()">keldeo-ordinary</button>
+                    <button onclick="opcionIncorrecta()">drilbur</button>
+                    <button onclick="opcionIncorrecta()">ninjask</button>
+                    <button onclick="cambiarImagen()">excadrill</button>
+                </div>
+                <div class="mensaje">
+                    <h3><label for="" id="idmensajecorrecto"></label></h3>
+                    <h3><label for="" id="idmensajeincorrecto"></label></h3>
+                </div>
+                <div class="botonreiniciar">
+                    <button onclick="reiniciar()">Reiniciar</button>
+                </div>
+            </section>
+            <aside></aside>
+            <footer></footer>
+        </div>
+    </div>
+</body>
+
+</html>

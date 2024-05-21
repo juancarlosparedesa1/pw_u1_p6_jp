@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p:before {
+
+    content: attr(type);
+    display: block;
+}
+body{
+    background-color: cornflowerblue;
+}
+.formulario{
+background-color: azure;
+width: 200px;
+height: 450px;
+padding: 20px;
+border-radius: 10px;
+}
+.form{
+    
+}
+
+.boton{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
